@@ -1,1 +1,16 @@
+#!/usr/bin/env bash
+
 set -e
+
+source /var/vcap/packages/golang-1.9-linux/bosh/compile.env
+export GOPATH=$PWD
+
+mkdir src
+mv github.com src/
+cd src/github.com/gstackio/sample-app || exit 115
+
+GOOS=linux GOARCH=amd64 go build .
+chmod +x sample-app
+
+mkdir "$BOSH_INSTALL_TARGET/bin"
+mv sample-app "$BOSH_INSTALL_TARGET/bin"
