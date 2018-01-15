@@ -12,6 +12,8 @@ chown vcap:vcap "$log_dir" "$run_dir"
 date +%F_%T >> $log_dir/sample-app.out.log
 date +%F_%T >> $log_dir/sample-app.err.log
 
+export PORT=20014
+
 /sbin/start-stop-daemon \
   --pidfile "$pidfile" \
   --make-pidfile \
