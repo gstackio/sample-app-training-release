@@ -9,6 +9,8 @@ instance_groups:
       - name: sample-app
         release: sample-app-benjamin
         properties: {}
+      - name: bpm
+        release: bpm
     stemcell: default
     vm_type: default
     networks:
