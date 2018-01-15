@@ -2,8 +2,7 @@
 name: sample-app
 
 templates:
-  bin/start: bin/start
-  bin/stop: bin/stop
+  bpm.yml: config/bpm.yml
 
 packages:
   - sample-app
