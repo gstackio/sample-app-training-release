@@ -1,1 +1,6 @@
+---
 name: sample-app-benjamin
+blobstore:
+  provider: local
+  options:
+    blobstore_path: ./blobstore
