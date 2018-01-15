@@ -1,0 +1,7 @@
+---
+name: sample-app
+
+dependencies:
+  - golang-1.9-linux
+
+files: []
