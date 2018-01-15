@@ -1,0 +1,9 @@
+---
+name: sample-app
+
+templates: {}
+
+packages:
+  - sample-app
+
+properties: {}
