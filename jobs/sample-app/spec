@@ -1,7 +1,9 @@
 ---
 name: sample-app
 
-templates: {}
+templates:
+  bin/start: bin/start
+  bin/stop: bin/stop
 
 packages:
   - sample-app
