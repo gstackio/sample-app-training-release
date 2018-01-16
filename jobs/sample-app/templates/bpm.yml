@@ -4,4 +4,4 @@ processes:
     executable: /var/vcap/packages/sample-app/bin/sample-app
     args: []
     env:
-      PORT: 20014
+      PORT: <%= p('port') %>
