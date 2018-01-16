@@ -8,6 +8,8 @@ instance_groups:
     jobs:
       - name: sample-app
         release: sample-app-benjamin
+        provides:
+          sample-app: { as: sample-app-benjamin, shared: true }
         properties: {}
       - name: bpm
         release: bpm
