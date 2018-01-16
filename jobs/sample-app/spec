@@ -7,4 +7,9 @@ templates:
 packages:
   - sample-app
 
-properties: {}
+properties:
+  port:
+    description: |
+      The TCP port on which the application is listening for incoming HTTP
+      requests.
+    default: 20014
