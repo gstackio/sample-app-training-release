@@ -7,6 +7,12 @@ templates:
 packages:
   - sample-app
 
+provides:
+  - name: sample-app
+    type: web-app
+    properties:
+      - port
+
 properties:
   port:
     description: |
