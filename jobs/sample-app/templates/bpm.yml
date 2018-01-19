@@ -5,3 +5,4 @@ processes:
     args: []
     env:
       PORT: <%= p('port') %>
+      CF_INSTANCE_INDEX: <%= spec.index %>
