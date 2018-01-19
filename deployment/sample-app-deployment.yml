@@ -3,7 +3,7 @@ name: sample-app-benjamin
 
 instance_groups:
   - name: sample-app
-    instances: 1
+    instances: 3
     azs: [ z1 ]
     jobs:
       - name: sample-app
