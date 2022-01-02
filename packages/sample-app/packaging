@@ -9,7 +9,7 @@ mkdir src
 mv github.com src/
 cd src/github.com/gstackio/sample-app || exit 115
 
-GOOS=linux GOARCH=amd64 go build .
+GOOS=linux GOARCH=amd64 go build -mod=readonly .
 chmod +x sample-app
 
 mkdir "$BOSH_INSTALL_TARGET/bin"
