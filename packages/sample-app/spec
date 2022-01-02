@@ -2,7 +2,7 @@
 name: sample-app
 
 dependencies:
-  - golang-1.9-linux
+  - golang-1-linux
 
 files:
   - github.com/gstackio/sample-app/**
