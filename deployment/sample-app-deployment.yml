@@ -30,12 +30,12 @@ update:
 releases:
   - name: sample-app-benjamin
     version: latest
-  - name: bpm
-    version: "0.2.0"
-    url: https://bosh.io/d/github.com/cloudfoundry-incubator/bpm-release?v=0.2.0
-    sha1: f2bd126b17b3591160f501d88d79ccf0aba1ae54
+  - name: "bpm"
+    version: "1.1.15"
+    url: "https://bosh.io/d/github.com/cloudfoundry/bpm-release?v=1.1.15"
+    sha1: "0d48aa01a65b947b97570234eb2401e821a8bd35"
 
 stemcells:
   - alias: default
-    os: ubuntu-trusty
+    os: ubuntu-bionic
     version: latest
